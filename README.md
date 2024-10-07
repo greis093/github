@@ -1,5 +1,7 @@
 # GIT Y GITHUB
 
+crear un **.gitignore** dentro de **.git** para crear una **FICHERO OCULTO** No se sube al GITHUB.
+
 ## CREAR O CAMBIAR PROYECTOS (carpetas) EN EL TERMINAL
 
 - [x] **pwd** || _Ver en que proyecto (carpeta) estoy_
@@ -41,3 +43,9 @@ _primero creamos nuestro git init_
 - [x] **git add .** ó **git add "nombre archivo"**|| _Para colocar el archivo en un área de preparación._
 - [x] **git commit -m "nombre del commit** || _Confirmamos los cambios con un commit._
 - [x] **git push origin main** || _Guarda todos los cambios en el GITHUB_
+
+## CREAR NUEVAS RAMAS
+
+- [x] **git branch** || _Visualizar en que rama nos encontramos lo muestra con un \*_
+- [x] **git branch nombre_rama** || _Crea una nueva ramaa partir de la rama en la que estamos_
+- [x] **git switch nombre_rama** || _Moverse a la rama creada_
