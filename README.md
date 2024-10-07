@@ -18,7 +18,7 @@ _primero creamos nuestro git init_
 - [x] **cat fichero1.txt** || _Vemos el contenido del fichero_
 - [x] **clear** || _Limpiar el terminal_
 
-## Subir mi primer proyecto al repositorio GITHUB
+## SUBIR MI PRIMER PROYECTO AL REPOSITORIO GITHUB
 
 - [x] **git init** || _Crea un nuevo subdirectorio llamado .git que es el esqueleto de GIT._
 
@@ -33,3 +33,11 @@ _primero creamos nuestro git init_
 - [x] **git remote add origin git@github.com:greis093/proyectoGITHUB.git** || _Se copia el enlace de nuestro GITHUB para enlazarlo_
 
 - [x] **git push -u origin main** || _Sube tus cambios de la rama main al remoto origin y establece la relación de seguimiento para facilitar futuros push y pull en esa rama._
+
+## SUBIR LOS CAMBIOS AL GITHUB
+
+- [x] **git pull origin main** || _traer los cambios del repositorio_
+- [x] **ls** || _vemos cambios de otras personas_
+- [x] **git add .** ó **git add "nombre archivo"**|| _Para colocar el archivo en un área de preparación._
+- [x] **git commit -m "nombre del commit** || _Confirmamos los cambios con un commit._
+- [x] **git push origin main** || _Guarda todos los cambios en el GITHUB_
