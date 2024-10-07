@@ -14,4 +14,4 @@
 
 - [x] **git remote add origin git@github.com:greis093/proyectoGITHUB.git** || _Se copia el enlace de nuestro GITHUB para enlazarlo_
 
-- [x] git push -u origin main || _Sube tus cambios de la rama main al remoto origin y establece la relación de seguimiento para facilitar futuros push y pull en esa rama._
+- [x] **git push -u origin main** || _Sube tus cambios de la rama main al remoto origin y establece la relación de seguimiento para facilitar futuros push y pull en esa rama._
