@@ -50,3 +50,5 @@ _primero creamos nuestro git init_
 - [x] **git branch nombre_rama** || _Crea una nueva ramaa partir de la rama en la que estamos_
 - [x] **git switch nombre_rama** || _Moverse a la rama creada_
 - [x] **git switch master** || _Regresamos a la rama principal_
+- [x] **cat nombre_rama** || _Revisamos los cambios de la rama creada_
+- [x] **git push origin nombre_rama** || _Guarda todos los cambios de la rama creada en el GITHUB_
