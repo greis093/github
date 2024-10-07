@@ -51,4 +51,19 @@ _primero creamos nuestro git init_
 - [x] **git switch nombre_rama** || _Moverse a la rama creada_
 - [x] **git switch master** || _Regresamos a la rama principal_
 - [x] **cat nombre_rama** || _Revisamos los cambios de la rama creada_
-- [x] **git push origin nombre_rama** || _Guarda todos los cambios de la rama creada en el GITHUB_
+
+  ### SUBIR MI RAMA CREADA A MI GITHUB
+
+  - [x] **git add .** ó **git add "nombre archivo"**
+  - [x] **git commit -m "nombre del commit"**
+  - [x] **git push origin nombre_rama**
+
+## CAMBIAR NOMBRE DE UNA RAMA
+
+- [x] **git branch** || _Visualizar en que rama nos encontramos lo muestra con un \*_
+- [x] **git branch -m renombrar_rama** || _Renombramos la rama_
+
+## ELIMINAR UNA RAMA
+
+- [x] **git branch -d nombre_rama** || _Eliminar un rama (no debemos estar en esa rama)_
+- [x] **git branch** || _Verificamos que la rama no se encuentra \*_
