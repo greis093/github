@@ -80,7 +80,7 @@ _primero creamos nuestro git init_
 - [x] **git diff HEAD fichero1.txt fichero2.txt** || _Mostar diferencias entre el último commit y el fichero (zona de trabajo)_
 - [x] **git diff --cached** || _Mostrar diferencias entre el último commit realizado y la zona de preparación (git add)_
 - [x] **git diff commit1 commit2** || _Mostrar diferencias entre 2 commit_ \*
-  - **git log -oneline** || _Detalle de los commit_
+  - **git log --oneline** || _Detalle de los commit_
 
 ## GUARDAR CAMBIOS CUANDO NO QUEREMOS USAR COMMIT
 
