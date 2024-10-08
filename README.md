@@ -79,3 +79,20 @@ _primero creamos nuestro git init_
 - [x] **git switch master** || _Cambiar a la rama master_
 - [x] **git branch** || _Verificar que estamos en la rama master \*_
 - [x] **git merge nombre_rama -m "nombre_commit"** || _Unirlo a la rama master_
+
+### REVISAR FICHEROS ANTES DE SUBIRLOS A GITHUB
+
+- [x] **git diff** || _Nos muestra el cambio que **No han sido añadidos en la zona de praparación**_
+- [x] **git diff HEAD fichero1.txt fichero2.txt** || _Mostar diferencias entre el último commit y el fichero (zona de trabajo)_
+- [x] **git diff --cached** || _Mostrar diferencias entre el último commit realizado y la zona de preparación (git add)_
+- [x] **git diff commit1 commit2** || _Mostrar diferencias entre 2 commit_ \*
+  - **git log -oneline** || _Detalle de los commit_
+
+## GUARDAR CAMBIOS CUANDO NO QUEREMOS USAR COMMIT
+
+- [x] **git stash** || _Guarda los cambios sin hacer commit (se guarda a partir del ultimo commit)_
+- [x] **git stash apply** || _Recuperar varias veces los cambios de **git stash**_
+- [x] **git stash pop** || _Recupera los cambios de **git stash** (ya no se vuelve a recuperar el **git stash**)_
+- [x] **git stash list** || _Lista los cambios guardador varias veces por **git stash**_
+- [x] **git stash drop stash@{N}** || \_Borrar los cambios guardados en **git stash**
+- [x] **git stash clear** || _Borrar todos los cambios guardados en **git stash**_
