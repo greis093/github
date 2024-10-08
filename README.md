@@ -67,3 +67,15 @@ _primero creamos nuestro git init_
 
 - [x] **git branch -d nombre_rama** || _Eliminar un rama (no debemos estar en esa rama)_
 - [x] **git branch** || _Verificamos que la rama no se encuentra \*_
+
+## UNIR RAMAS - MERGE
+
+1.  FAST FORWARD MERGE : Unir una rama_A (no tiene cambios) con otra rama_B (con cambios).
+2.  MERGE SIN CONFLICTOS: Unir una rama_A (con cambios) con otra rama_B (con cambios).
+3.  MERGE CON CONFLICTOS: Unir una rama_A (cambios fichero_X) con otra rama_B (cambios fichero_X).
+    - Mantener los ramos de una rama o modificar manualmente los cambios
+
+- [x] **git branch** || _Visualizar en que rama nos encontramos lo muestra con un \*_
+- [x] **git switch master** || _Cambiar a la rama master_
+- [x] **git branch** || _Verificar que estamos en la rama master \*_
+- [x] **git merge nombre_rama -m "nombre_commit"** || _Unirlo a la rama master_
