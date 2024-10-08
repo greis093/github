@@ -90,3 +90,29 @@ _primero creamos nuestro git init_
 - [x] **git stash list** || _Lista los cambios guardador varias veces por **git stash**_
 - [x] **git stash drop stash@{N}** || \_Borrar los cambios guardados en **git stash**
 - [x] **git stash clear** || _Borrar todos los cambios guardados en **git stash**_
+
+## MOVERSE ENTRE COMMIT
+
+- [x] **git log --oneline** || _Ver el ID de los commit_
+- [x] **git checkout id_commit** || _Permite moverse a otro commit_
+- [x] **git checkout master~1** || _Volver un commit anterior de la rama master (master~N)_
+
+## RESTABLECER FICHEROS
+
+- [x] **git restore fichero1.txt** || _Restaurar fichero a como estaba en el último commit_
+- [x] **git restore --source HEAD~1 fichero1.txt** || _Cambia la fuente desde donde se restaura el fichero_
+- [x] **git restore --staged fichero1.txt** || _Quitar de la zona de preparación el fichero(se elimino el git add)_
+
+## ELIMINAR COMMIT
+
+- [x] **git reset id_commit** || _Elimina el commit hasta el commit indicado (permanentemente)_
+  - **git log --oneline**|| _Verificar los commit_
+    _Si trabajas en **Equipo** utiliza el *revert* que no lo elimina crea uno nuevo indicando el borrado_
+- [x] **git revert id_commit** || _Regresa al commit indicado_
+
+## CLONAR UN REPOSITORIO DE GITHUB
+
+_Primero crear tu **.git** con git init_
+
+- [x] **git clone https://ruta_repositorio_clonar** || _Copiamos la ruta del repositorio que clonaremos_
+
